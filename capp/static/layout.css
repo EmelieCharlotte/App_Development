@@ -1,1 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+/*CSS utilities*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background: #fff;
+    line-height: 1.6;
+    margin: 0;
+}
+.container {
+    margin: auto;
+   /* max-width: 1320px;*/
+    max-width: 100%;
+    padding: 0;
+    }
+ul { 
+    list-style: none;
+    font-size: 16px;
+}
+h1, h2 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+img {
+    width: 100%;
+    
+}
+/* Navbar  */
+.section_navbar {
+    background-color:rgb(19, 142, 19);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 70px;
+    align-items: center;
+    /*background-color: #39ab48;*/
+    padding: 0 0px;
+}
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    border-bottom: #156919 4px solid;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar .logo {
+    margin-left: 20px;
+    font-weight: 400;
+}
+.text-logo {
+    color: rgb(187, 43, 43);
+    font-size: 30px;
+}
+
+.navbar .logo a.logo-link,
+.navbar .logo a.logo-link:hover,
+.navbar .logo a.logo-link:focus,
+.navbar .logo a.logo-link:active {
+    text-decoration: none;
+    border-bottom: none;
+    
+}
+/* Footer  */
+
+.section_footer{
+    background-color:#39ab48;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    background-color: #39ab48;
+    padding: 0px;
+    /*position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;*/
+}
+/* Media query */
+@media(max-width:768px){
+    .navbar {
+        height: 160px;
+        flex-direction: column;
+    }
+    .navbar a {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar a:hover{
+        color: #568c63;
+        border-bottom: #11510f 2px solid;
+    }
+}
