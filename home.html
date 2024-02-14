@@ -1,0 +1,128 @@
+{% extends "layout.html"%}
+{% block content %}
+
+<section class="section_header_home">
+    <div class="container">
+  
+      <div class="header_home">
+        <div class="box"> 
+          <h1 style="font-size:55px;"> Home</h1>
+          <p style="text-align:left;">
+            Welcome to Carbon Tracker, your go-to app for identifying and mitigating carbon emissions for both individuals and organizations. Our app is crafted to assist you in pinpointing the primary contributors to your carbon footprint and guiding you towards meaningful actions to minimize your environmental impact.
+          </p>
+          <div class="container_buttons_header_home">
+            <div class="btn">
+                <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#0b7f16;">Register</a>
+            </div>
+            <div class="btn">
+                <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#0b7f16;">Login</a>
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <img 
+            src="{{url_for('static', filename='icons/carbon_app.svg')}}"
+            width="325" 
+            height="325"
+            alt=""/>
+        </div>
+      </div>
+  
+    </div>
+</section> 
+<!-- Developers -->
+<section class="section_developers">
+    <div class="container">
+  
+      <div class="developers" style="display:block;">
+        <h1 style="text-align:center;"> Our Team</h1>
+        <p>
+        </p>      
+      </div>
+  
+      <div class="developers">
+          <div class="box" >
+            <img src="static/icons/IMG_0037.jpg" alt="" style="border-radius: 50%; width: 200px; height: 200px;" >
+            <h3>Emelie Nyström</h3>
+            <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+            </p>
+            <div class="container_buttons_developers">
+              <a class="btn_developers" href="#"  target="_blank">LinkedIn</a>
+            </div> 
+          </div>
+          <div class="box">
+            <img src="static/icons/Fredrik.png" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+            <h3>Fredrik Sælemyr</h3>
+            <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+            </p>
+            <div class="container_buttons_developers">
+              <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+            </div> 
+          </div> 
+          <div class="box">
+            <img src="static/icons/Elsa1.png" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+            <h3>Elsa Brunet</h3>
+            <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+            </p>
+            <div class="container_buttons_developers">
+              <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+            </div> 
+          </div>    
+          <div class="box">
+            <img src="static/icons/IMG_Green.png" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+            <h3>Julen Gago</h3>
+            <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+            </p>
+            <div class="container_buttons_developers">
+              <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+            </div> 
+          </div>   
+      </div>
+  
+      <div class="developers">
+        <div class="box2">
+          <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+          <h3>Sondre Bøygard</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>
+        <div class="box2">
+          <img src="static/icons/Thomas.png" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+          <h3>Developer 6</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>           
+        <div class="box2">
+          <img src="static/icons/Alexander.png" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+          <h3>Developer 7</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>  
+        <div class="box2">
+          <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;">
+          <h3>Developer 8</h3>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia repellat omnis? Odit enim hic atque dolorem iste natus inventore perspiciatis vitae dolore animi veritatis aut nemo unde similique, officia reiciendis ex architecto voluptates soluta ab tempore facilis quisquam cum.
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="#"  target="_blank">Curriculum</a>
+          </div> 
+        </div>  
+    </div>
+
+           
+    </div>
+    </div>          
+</section>
+         
+
+ 
+{% endblock content %}
